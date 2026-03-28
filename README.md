@@ -12,6 +12,20 @@
 pip install mcp-rs485
 ```
 
+## Configuration
+
+```json
+{
+  "mcpServers": {
+    "mcp-rs485": {
+      "command": "mcp-rs485",
+      "env": {},
+      "name": "mcp-rs485"
+    }
+  }
+}
+```
+
 ## Usage
 
 This MCP server exposes RS485 serial bus connectivity through the Model Context Protocol. It allows AI assistants to interact with RS485 devices.
