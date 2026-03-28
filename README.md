@@ -20,7 +20,7 @@ pip install mcp-rs485
     "mcp-rs485": {
       "command": "mcp-rs485",
       "env": {},
-      "name": "mcp-rs485"
+      "name": "io.github.daedalus/mcp-rs485"
     }
   }
 }
