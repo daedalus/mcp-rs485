@@ -2,7 +2,8 @@
   "mcpServers": {
     "mcp-rs485": {
       "command": "mcp-rs485",
-      "env": {}
+      "env": {},
+      "name": "mcp-rs485"
     }
   }
 }
