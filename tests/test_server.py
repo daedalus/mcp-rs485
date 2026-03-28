@@ -24,7 +24,7 @@ def clear_connections() -> None:
 
 @pytest.fixture
 def mock_serial() -> tuple[MagicMock, MagicMock]:
-        with patch("mcp_rs485.server.Serial") as mock:
+    with patch("mcp_rs485.server.Serial") as mock:
         serial_instance = MagicMock()
         serial_instance.is_open = True
         mock.return_value = serial_instance
@@ -33,7 +33,7 @@ def mock_serial() -> tuple[MagicMock, MagicMock]:
 
 class TestListPorts:
     def test_list_ports_returns_list(self) -> None:
-            with patch("mcp_rs485.server.comports") as mock_comports:
+        with patch("mcp_rs485.server.comports") as mock_comports:
             mock_port = MagicMock()
             mock_port.device = "/dev/ttyUSB0"
             mock_port.description = "USB Serial"

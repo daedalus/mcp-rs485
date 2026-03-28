@@ -2,6 +2,8 @@
 
 > MCP server that exposes RS485 bus connectivity for reading and writing serial data.
 
+mcp-name: io.github.daedalus/mcp-rs485
+
 [![PyPI](https://img.shields.io/pypi/v/mcp-rs485.svg)](https://pypi.org/project/mcp-rs485/)
 [![Python](https://img.shields.io/pypi/pyversions/mcp-rs485.svg)](https://pypi.org/project/mcp-rs485/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
